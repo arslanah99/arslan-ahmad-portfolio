@@ -1,8 +1,8 @@
-# Dev Portfolio
+# My Portfolio
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+To view a live demo, [click here](https://iamsakil.github.io/).
 
 ## Features
 
@@ -30,7 +30,6 @@ To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/
     - [Contact Section](#contact-section)
     - [Footer Section](#footer-section)
     - [Optional Sections](#optional-sections)
-- [Changelog](#changelog)
 - [License](#license)
 
 ## Setup and Configuration
@@ -134,7 +133,7 @@ The default format is as follows:
         <h3>Employer Name</h3>
         <h4>Job Title</h4>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+            Description
         </p>
     </div>
 </div>
@@ -150,11 +149,11 @@ The Education is just a series of `.education-block` classes with some details a
 
 ```HTML
 <div class="education-block">
-    <h3>University of Ottawa</h3>
-    <span class="education-date">Sept 2016 - Sept 2017</span>
-    <h4>Bachelor of Science in Computer Science</h4>
+    <h3>University Name</h3>
+    <span class="education-date">From - To</span>
+    <h4>Degree name</h4>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+        Description
     </p>
 </div>
 ```
@@ -175,7 +174,7 @@ The Project section contains a number of `.project` elements that represent each
     <div class="project-info">
         <h3>Project Name Here</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+            Description here.
         </p>
         <a href="#">View Project</a>
     </div>
@@ -198,7 +197,7 @@ If you want to hide some projects by default, you can throw them in an additiona
         <div class="project-info">
             <h3>Project Name Here</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+				Description here.
             </p>
             <a href="#">View Project</a>
         </div>
@@ -219,7 +218,7 @@ If you do not wish to have a project image associated with a project, you can si
     <div class="project-info">
         <h3>Project Name Here</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+			Description here.
         </p>
         <a href="#">View Project</a>
     </div>
@@ -229,7 +228,7 @@ If you do not wish to have a project image associated with a project, you can si
 
 ### Skills Section
 
-The Skills section is simply an unordered list that spits out a "Skill Cloud" with all the skills listed. To add / remove skills, simply edit or add list elements, like so:
+The Skills section is simply an unordered list that spits out a "Skill Cloud" with particular the skills listed. To add / remove skills, simply edit or add list elements, like so:
 
 ```HTML
 <ul>
@@ -272,17 +271,17 @@ The template comes with an optional section that can be added to the page markup
     <div class="optional-section-block">
         <h3>Some content title</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+			Description
         </p>
         <ul>
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Line1
             </li>
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Line2
             </li>
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Line3
             </li>
         </ul>
     </div>
@@ -295,42 +294,6 @@ The template comes with an optional section that can be added to the page markup
 You can copy .optional-section-block for each new item you wish you have in the optional section. Also, the background-alt class may need to be removed depending on where the optional section is placed in your layout as this adds the grey background. If you play it at the bottom after "Skills", it can be used as is. Also, by default the border is applied at the top, but this can also be adjusted as needed.
 
 The optional section blocks have styling for h3 (the block title), h4, p, and ul tags by default.
-
-## Changelog
-
-### 1.2.1
-
-* Updated dependencies and gulpfile
-* Added `no-image` optional class for projects without images (see above for usage)
-
-### 1.2.0
-
-* Added support for optional "Show More Projects" that hides some projects by default if included
-* Added optional sections to display certifications, languages, etc.
-
-### 1.1.3
-
-* Added default favicon to be used or changed
-* Added `sticky` class to make header fixed
-* Updated docs to add image section
-
-### 1.1.2
-
-* Added `no-scroll` class option to header navigation anchor if you want to link to external site
-* Changed contact form input / textarea colours to be based off `$base-color`
-* Changed main background to 100vh so it doesn't overflow if viewport height < 700px
-
-### 1.1.1
-
-* Made input placeholder text more readable
-* Removed timeline line when no JS
-* Added some basic styling to timeline when no JS
-
-### 1.1.0
-
-* Fixed menu toggle on mobile devices
-* Fixed z-index / scrolling issue with mobile menu
-* Mobile menu now closes once a nav element is hit
 
 ## License
 
